@@ -1,0 +1,24 @@
+{
+  "name": "bino",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "parallax.js": "^1.4.2",
+    "owl.carousel": "owl2#^0.1.0",
+    "masonry": "^4.0.0",
+    "layerslider": "^5.0.4",
+    "isotope": "^2.2.2",
+    "animate.css": "^3.5.1"
+  }
+}
