@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>bino</title>
-
-	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="assets/slideme/slideme.css">
+	<link rel="stylesheet" href="assets/hover/css/hover.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,46 +40,16 @@
 		</div>
 	</nav>
 
-		<div class="slider">
-			<div id="carousel-id" class="carousel slide" data-ride="carousel">
-			    <ol class="carousel-indicators">
-			        <li data-target="#carousel-id" data-slide-to="0" class=""></li>
-			        <li data-target="#carousel-id" data-slide-to="1" class=""></li>
-			        <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
-			    </ol>
-			    <div class="carousel-inner">
-			        <div class="item item-01">
-			            <div class="container">
-			                <div class="carousel-caption">
-			                    <h1>Example headline.</h1>
-			                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-			                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="item item-02">
-			            <div class="container">
-			                <div class="carousel-caption">
-			                    <h1>Another example headline.</h1>
-			                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-			                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="item active item-03">
-			            <div class="container">
-			                <div class="carousel-caption">
-			                    <h1>One more for good measure.</h1>
-			                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-			                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-			    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
+	<!-- slider -->
+		<div class="foo">
+			<ul class="slideme">
+				<li><img src="img/slider1.jpg"></li>
+				<li><img src="img/slider2.jpg"></li>
+				<li><img src="img/slider3.jpg"></li>
+				<li><img src="img/slider4.jpg"></li>
+			</ul>
 		</div>
+
 	<!-- anchor -->
 	<div class="anchor text-center">
 		<a href="#" class="btn btn-circle btn-default">
@@ -89,24 +60,32 @@
 	<!-- who -->
 	<div class="who">
 		<div class="container">
-			<div class="row" align="center">
+			<div class="row text-center">
 				<div class="col-md-3">
+					<a href="#" class="hvr-float-shadow">
 					<img src="img/sleek.png">
+					</a>
 					<h3>sleek design</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>		
 				</div>
 				<div class="col-md-3">
+					<a href="#" class="hvr-float-shadow">
 					<img src="img/clean.png">
+					</a>
 					<h3>clean code</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>		
 				</div>
 				<div class="col-md-3">
+				<a href="#" class="hvr-float-shadow">
 					<img src="img/creative.png">
+					</a>
 					<h3>creative ideas</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>		
 				</div>
 				<div class="col-md-3">
+				<a href="#" class="hvr-float-shadow">
 					<img src="img/free.png">
+				</a>
 					<h3>free support</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>		
 				</div>
@@ -135,19 +114,78 @@
 	</div>
 
 	<!--services-->
-	<div class="row block-image">
-		<div class="col-md-6 block-left text-right">
-			<h3>services</h3>
-			<h3>services</h3>
-			<h3>servicesservicesservicesservi</h3>
-			<h3>servicesservicesservicesservi</h3>
-			<h3>servicesservicesservicesservi</h3>
+	<div class="services">
+		<div class="row block-image">
+			<div class="col-md-6 block-left text-right">
+				<h3>OUR SERVICES <img src="img/services_tag.png"></h3>
+				<h4>WEB DESIGN</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p><img src="img/down_icon_comp.png">
+				<h4>PRINT DESIGN</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
+				<h4>PHOTOGRAPHY</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- isotope -->
+	<div class="works">
+		<div class="container">
+			<h2 class="text-center">RECENT WORKS</h2>
+			<p class="text-center">It has survived not only five centuries, but also the leap scrambled it to make a type.</p>
+			<hr />
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+					<ul class="portfolio-filter nav nav-pills ">
+						<li><a href="#" class="active" data-filter="*">all</a></li>
+						<li><a href="#" data-filter=".print-design">Print Design</a></li>
+						<li><a href="#" data-filter=".animation">Animation</a></li>
+						<li><a href="#" data-filter=".art">Art</a></li>
+						<li><a href="#" data-filter=".web-design">Web Design</a></li>
+						<li><a href="#" data-filter=".photography">Photography</a></li>
+						<li><a href="#" data-filter=".video">Video</a></li>
+					</ul>
+					</div>					
+				
+					<div class="portfolio-item">
+						<div class="single-item print-design">
+							<img src="img/works1.jpg" class="img-responsive">
+						</div>
+						<div class="single-item animation">
+							<img src="img/works2.jpg" class="img-responsive">
+						</div>						
+						<div class="single-item art">
+							<img src="img/works3.jpg" class="img-responsive">
+						</div>						
+						<div class="single-item web-design">
+							<img src="img/works4.jpg" class="img-responsive">
+						</div>
+						<div class="single-item print-design">
+							<img src="img/works5.jpg" class="img-responsive">
+						</div>
+						<div class="single-item photography">
+							<img src="img/works6.jpg" class="img-responsive">
+						</div>						
+						<div class="single-item video">
+							<img src="img/works7.jpg" class="img-responsive">
+						</div>						
+						<div class="single-item print-design">
+							<img src="img/works8.jpg" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<!-- javascript -->
 	<script src="assets/jquery/dist/jquery.js"></script>
 	<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/isotope/dist/isotope.pkgd.js"></script>
+	<script src="js/jquery.slideme2.js"></script>
+	<script src="js/custom.js"></script>
+	
 
 </body>
 </html>

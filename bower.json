@@ -19,6 +19,8 @@
     "masonry": "^4.0.0",
     "layerslider": "^5.0.4",
     "isotope": "^2.2.2",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "bootstrap-sass": "^3.3.6",
+    "hover": "^2.0.2"
   }
 }
